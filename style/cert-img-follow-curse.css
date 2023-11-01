@@ -1,0 +1,158 @@
+/* --------------------------------PROJECT IMG BD1----------------------------------- */
+
+.card-cerimg1{
+    background: url("../images/ml2023.jpg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg1:hover .content-cerimg1 {
+    transform: translateZ(12px);
+}
+
+.content-cerimg1 {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+/* --------------------------------PROJECT IMG BD2----------------------------------- */
+
+.card-cerimg2{
+    background: url("../images/digi-mark.jpeg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg2:hover .content-cerimg2{
+    transform: translateZ(12px);
+}
+
+.content-cerimg2{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+/* --------------------------------PROJECT IMG BD3----------------------------------- */
+
+.card-cerimg3{
+    background: url("../images/full-stack-clg.jpeg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg3:hover .content-cerimg3{
+    transform: translateZ(12px);
+}
+
+.content-cerimg3{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+/* --------------------------------PROJECT IMG BD4----------------------------------- */
+
+.card-cerimg4{
+    background: url("../images/oop-clg.jpeg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg4:hover .content-cerimg4{
+    transform: translateZ(12px);
+}
+
+.content-cerimg4{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG BD5----------------------------------- */
+
+.card-cerimg5{
+    background: url("../images/internship-cc.jpeg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg5:hover .content-cerimg5{
+    transform: translateZ(12px);
+}
+
+.content-cerimg5{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+/* --------------------------------PROJECT IMG BD6----------------------------------- */
+
+.card-cerimg6{
+    background: url("../images/lor_cc.jpeg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg6:hover .content-cerimg6{
+    transform: translateZ(12px);
+}
+
+.content-cerimg6{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+/* --------------------------------PROJECT IMG BD7----------------------------------- */
+
+.card-cerimg7{
+    background: url("../images/cyber-sec.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-cerimg7:hover .content-cerimg7{
+    transform: translateZ(12px);
+}
+
+.content-cerimg7{
+    position: relative;
+    transition: transform 0.3s ease;
+}

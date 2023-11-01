@@ -1,0 +1,265 @@
+/* --------------------------------PROJECT IMG BD1----------------------------------- */
+
+.card-bd1 {
+    background: url("../images/bd_1.webp") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd1:hover .content-bd1 {
+    transform: translateZ(12px);
+}
+
+.content-bd1 {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG BD2----------------------------------- */
+
+.card-bd2 {
+    background: url("../images/bd_2.webp") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd2:hover .content-bd2 {
+    transform: translateZ(12px);
+}
+
+.content-bd2 {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD3----------------------------------- */
+
+.card-bd3 {
+    background: url("../images/hd1.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd3:hover .content-bd3 {
+    transform: translateZ(12px);
+}
+
+.content-bd3 {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD4----------------------------------- */
+
+.card-bd4 {
+    background: url("../images/hd2.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd4:hover .content-bd4 {
+    transform: translateZ(12px);
+}
+
+.content-bd4 {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD5----------------------------------- */
+
+.card-bd5{
+    background: url("../images/hd3.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd5:hover .content-bd5 {
+    transform: translateZ(12px);
+}
+
+.content-bd5{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD6----------------------------------- */
+
+.card-bd6{
+    background: url("../images/md1.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd6:hover .content-bd6 {
+    transform: translateZ(12px);
+}
+
+.content-bd6{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD7----------------------------------- */
+
+.card-bd7{
+    background: url("../images/wd1.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd7:hover .content-bd7 {
+    transform: translateZ(12px);
+}
+
+.content-bd7{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* ********************************************** WEB *************************************************** */
+
+/* --------------------------------PROJECT IMG HD8----------------------------------- */
+
+.card-bd8{
+    background: url("../images/pfw1.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd8:hover .content-bd8 {
+    transform: translateZ(25px);
+}
+
+.content-bd8{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD9----------------------------------- */
+
+.card-bd9{
+    background: url("../images/pfw2.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd9:hover .content-bd9 {
+    transform: translateZ(25px);
+}
+
+.content-bd9{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD10----------------------------------- */
+
+.card-bd10{
+    background: url("../images/cs1.jpg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd10:hover .content-bd10 {
+    transform: translateZ(25px);
+}
+
+.content-bd10{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD11----------------------------------- */
+
+.card-bd11{
+    background: url("../images/fw1.jpg") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd11:hover .content-bd11{
+    transform: translateZ(25px);
+}
+
+.content-bd11{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------PROJECT IMG HD12----------------------------------- */
+
+.card-bd12{
+    background: url("../images/fw2.png") no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: #988e9f 1px 1px 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.card-bd12:hover .content-bd12{
+    transform: translateZ(25px);
+}
+
+.content-bd12{
+    position: relative;
+    transition: transform 0.3s ease;
+}
