@@ -10,25 +10,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 /* ------------------------------------- Background -------------#1a1527---------------------------- */
-.about-section
-{
-    height: 1200px;
+.about-section {
+    height: 85vw;
     width: 100%;
     background-color: #1a1527;
-    background: linear-gradient(#1a1527, #0b0a10);  
+    background: linear-gradient(#1a1527, #0b0a10);
 }
+
+@media only screen and (max-width: 700px) {
+    .about-section {
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-section {
+        height: 170vh;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .about-section {
+        height: 180vh;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .about-section {
+        height: 190vh;
+    }
+}
+
 
 /* ------------------------------------- Timeline ----------------------------------------- */
 #timeline-abt {
     background-color: #5918df;
     list-style: none;
-    margin-left: 300px;
-    height: 200%;
+    margin-left: 21%;
+    height: 88vmax;
     position: absolute;
-    top: 6870px;
-    width: 1px;
+    margin-top: 7%;
+    width: 2px;
+    z-index: 1;
 }
 
+@media only screen and (max-width: 700px) {
+    #timeline-abt {
+        height: 180vmin;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #timeline-abt {
+        height: 200vmax;
+    }
+}
 /*----------------------------------- bullet points -----------------------------------*/
 
 .bullet-abt {
@@ -58,230 +94,348 @@
 
 /* ----------------------------------Discover txt---------------------------------------- */
 #sel-abt {
-    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vmax;
+    font-weight: bold;
     position: absolute;
-    top: 6905px;
+    margin-top: 10vmax;
     left: 24%;
-    /* z-index: 2; */
+    z-index: 2;
 }
 
 /* ------------------------------------Me Img---------------------------------- */
-.me-img{
-    position: absolute;
-    top: 7000px;
-    height: 500px;
-    left: 200px;
+.me-img {
+    position: relative;
+    top: 17vmax;
+    height: 35vmax;
+    left: 13.5%;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
+    z-index: 1;
 
 }
 
-.me-img-txt{
+.me-img-txt {
     font-family: 'Charmonman', cursive;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 4.1vmax;
     color: #e8cdfa;
     cursor: context-menu;
+
 }
 
-.me-img-txt .txt1{
-    position: absolute;
-    top: 7330px;
-    left: 110px;
+.me-img-txt .txt1 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    z-index: 2;
 }
 
-.me-img-txt .txt2{
-    position: absolute;
-    top: 7410px;
-    left: 350px;
+.me-img-txt .txt2 {
+    position: relative;
+    margin-top: -6.5%;
+    margin-left: 24.5%;
+    z-index: 2;
 }
+
+@media only screen and (max-width: 700px) {
+    .me-img {
+        display: block;
+        margin-left: 25%;
+    }
+
+    .me-img-txt .txt1 {
+        margin-top: 5%;
+        margin-left: 31%;
+    }
+
+    .me-img-txt .txt2 {
+        margin-top: -6.5%;
+        margin-left: 49%;
+    }
+}
+
 
 /* ---------------------------------------About Para--------------------------------------- */
-.about-para{
-    position: absolute;
-    top: 7050px;
-    height: 500px;
-    left: 700px;
-    width: 700px;
+.about-para {
+    position: relative;
+    top: -42vmax;
+    left: 49%;
+    width: 48vw;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 23px;
-    line-height: 40px;
-    cursor:default;
+    font-size: 1.56vw;
+    line-height: 2.8vmax;
+    cursor: default;
+    z-index: 3;
 }
 
-#p-name{
-    font-size: 42px;
-    font-family:cursive;
-    color:#dc88fa;
+#p-name {
+    font-size: 2.8vw;
+    font-family: cursive;
+    color: #dc88fa;
 }
 
-#p-sherlock{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#86ff57;
+#p-sherlock {
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #86ff57;
 }
 
-#p-knife{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#8cadfe;
+#p-knife {
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8cadfe;
 }
 
-#p-ml{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#fff422;
+#p-ml {
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff422;
 }
 
-#p-wd{
-    font-size: 30px;
+#p-wd {
+    font-size: 2vw;
     font-family: 'Charmonman', cursive;
     font-weight: bold;
-    color:#61fcff;
+    color: #61fcff;
 }
 
-#p-iot{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#ffa365;
+#p-iot {
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffa365;
 }
 
-#p-cpp{
-    font-size: 30px;
+#p-cpp {
+    font-size: 2vw;
     font-family: 'Noto Sans Nandinagari', sans-serif;
     font-weight: bolder;
-    color:#ff0000;
+    color: #ff0000;
 }
 
-#p-java{
-    font-size: 40px;
+#p-java {
+    font-size: 2.7vw;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bolder;
-    color:#dc88fa;
+    color: #dc88fa;
 }
 
-#p-py{
-    font-size: 35px;
-    font-family: 'Pixelify Sans', sans-serif;Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#ffc7ec;
+#p-py {
+    font-size: 2.4vw;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #ffc7ec;
 }
 
-#p-matrix{
-    font-size: 35px;
+#p-matrix {
+    font-size: 2.4vw;
     font-family: 'VT323', monospace;
-    color:#26ff00;
+    color: #26ff00;
 }
 
-#p-bm{
-    font-size: 30px;
+#p-bm {
+    font-size: 2vw;
     font-family: 'Cracked Code', sans-serif;
     font-weight: bold;
-    color:#000000;
-    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff; 
+    color: #000000;
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff;
 }
 
-#p-ww{
-    font-size: 30px;
+#p-ww {
+    font-size: 2vw;
     font-family: 'Bad Script', cursive;
     font-weight: bold;
-    color:#fff422;
+    color: #fff422;
 }
 
-#p-got{
-    font-size: 30px;
+#p-got {
+    font-size: 2vw;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bolder;
-    color:#61fcff;
+    color: #61fcff;
 }
 
-#p-gita{
-    font-size: 30px;
+#p-gita {
+    font-size: 2vw;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bolder;
-    color:#ff6f1b;
+    color: #ff6f1b;
 }
 
-#p-st{
-    font-size: 38px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#000000;
+#p-st {
+    font-size: 2.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
     text-shadow: 2px 0 #ff0000, -2px 0 #ff0000, 0 2px #ff0000, 0 -2px #ff0000,
-             1px 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #ff0000;
-    font-family: 'EB Garamond', serif;}
+        1px 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #ff0000;
+    font-family: 'EB Garamond', serif;
+}
 
-#p-cont{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#c1b2ff;
+#p-cont {
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #c1b2ff;
     text-decoration: none;
 }
+
+#imgsize {
+    height: 11vmax;
+}
+
+#imgsizegita {
+    height: 16vmax;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-para {
+        display: inline-block;
+        top: 6vmax;
+        left: 10%;
+        width: 85vw;
+        background-image: linear-gradient(#15111f, #14101c) ;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+#p-name {
+    font-size: 22px;
+}
+#p-sherlock {
+    font-size: 18px;
+}
+#p-knife {
+    font-size: 18px;
+}
+#p-ml {
+    font-size: 18px;
+}
+#p-wd {
+    font-size: 18px;
+}
+#p-iot {
+    font-size: 18px;
+}
+#p-cpp {
+    font-size: 18px;
+}
+#p-java {
+    font-size: 20px;
+}
+#p-py {
+    font-size: 19px;
+}
+#p-matrix {
+    font-size: 19pxw;
+}
+#p-bm {
+    font-size: 18px;
+}
+#p-ww {
+    font-size: 18px;
+}
+#p-got {
+    font-size: 18px;
+}
+#p-gita {
+    font-size: 18px;
+}
+#p-st {
+    font-size: 21px;
+}
+#p-cont {
+    font-size: 18px;
+}
+}
+
 
 /* ------------------------------IMG reveal on txt hover----------------------------------- */
 
 .wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
 }
 
 .wrapper a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .wrapper a span {
-	position: absolute;
-	display: none;
-	z-index: 0;
-	transform: scale(0);
-	overflow: hidden;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    transform: scale(0);
+    overflow: hidden;
 
 }
+
 .wrapper a:hover span {
     display: block;
-	transform: translate(20%, -160%) scale(1.5);
-	border-radius: 10px;
-}	
+    transform: translate(20%, -160%) scale(1.5);
+    border-radius: 10px;
+}
 
 
 /* ----------------------------------------Resume download-------------------------------------- */
-#resumedown{
+#resumedown {
     position: relative;
-    top: 970px;
-    left: 40%;    
-
+    top: -35vw;
+    left: 40%;
+    z-index: 3;
 }
 
+@media only screen and (max-width: 700px) {
+    #resumedown {
+        top: 10vw;
+        left: 30vmin;
+    }
+}
 
+@media only screen and (max-width: 350px) {
+    #resumedown {
+        left: 20vmin;
+    }
+}
 /* --------------------------------------- Button ---------------------------------------------- */
 
-.btn,.btn2 {
-    background: linear-gradient(-45deg,#ffa63d,#ff3d77,#1593e3,#5918df);
+.btn,
+.btn2 {
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #1593e3, #5918df);
     background-size: 1100%;
     border: none;
     border-radius: 50px;
-    color: hsla(0,0%,100%,.9);
-    font-family: Roboto Mono,Courier New,Courier,monospace!important;
-    font-size: 20px;
+    color: hsla(0, 0%, 100%, .9);
+    font-family: Roboto Mono, Courier New, Courier, monospace !important;
+    font-size: 1.3vmax;
     line-height: 1;
-    padding: 17px 35px;
+    padding: 1.18vw 2.5vw;
     position: relative;
     text-align: center;
     text-transform: uppercase;
     transform: scaleX(1);
     cursor: pointer;
-    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955)
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), background-position 3s cubic-bezier(.455, .03, .515, .955)
+}
+
+@media only screen and (max-width: 700px) {
+    
+.btn,
+.btn2 {
+    font-size: 15px;
+    padding: 12px 24px;
+}
+
 }
 
 .btn {
     margin: 30px 0;
-    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),bottom .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955)
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), bottom .3s cubic-bezier(.175, .885, .32, 1.275), background-position 3s cubic-bezier(.455, .03, .515, .955)
 }
 
-.btn,.btn .btn2 {
+.btn,
+.btn .btn2 {
     background-position: 0 50%;
     bottom: 0
 }
@@ -291,33 +445,15 @@
     left: 0;
     opacity: .4;
     position: absolute;
-    transform: scale3d(.9,.9,1);
-    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),filter .3s cubic-bezier(.175,.885,.32,1.275),bottom .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955);
+    transform: scale3d(.9, .9, 1);
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), filter .3s cubic-bezier(.175, .885, .32, 1.275), bottom .3s cubic-bezier(.175, .885, .32, 1.275), background-position 3s cubic-bezier(.455, .03, .515, .955);
     width: 100%;
     z-index: -1
 }
 
-.btn:focus,.btn:hover {
+.btn:focus,
+.btn:hover {
     background-position: 100% 50%;
     bottom: 2px;
-    transform: scale3d(1.1,1.1,1)
+    transform: scale3d(1.1, 1.1, 1)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
