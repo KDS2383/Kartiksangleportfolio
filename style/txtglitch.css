@@ -1,7 +1,7 @@
 .glitch {
     color: #ceb8eb;
-    margin: 0 auto;
-    width: 400px;
+    display: inline-block;
+    text-shadow: 0px 0px 3px #100e17;
   }
   
   /* Real glitch effect */
@@ -16,7 +16,6 @@
     color: #ceb8eb;
     content: attr( data-text );
     left: 2px;
-    overflow: hidden;
     position: absolute;
     text-shadow: -1px 0 rgb(255, 0, 0);
     top: 0;
@@ -167,3 +166,4 @@
       clip: rect(38px, 9999px, 49px, 0);
     }
   }
+
