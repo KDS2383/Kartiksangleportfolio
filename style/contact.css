@@ -8,13 +8,13 @@
 
 @media only screen and (max-width: 500px) {
     .cont-section {
-        height: 80vmax;
+        height: 60vmax;
     }
 }
 
 /* ------------------------------------- Timeline ----------------------------------------- */
 #timeline-cont {
-    background-color: #ffffff;
+    background-color: #5918df;
     list-style: none;
     margin-left: 21%;
     height: 48vmax;
@@ -26,7 +26,7 @@
 
 @media only screen and (max-width: 550px) {
     #timeline-cont {
-        height: 25vmax;
+        height: 20vmax;
     }
 }
 
