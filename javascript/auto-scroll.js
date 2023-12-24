@@ -1,18 +1,17 @@
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("nav .container ul li");
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('div nav ul li a');
 window.onscroll = () => {
-  var current = "";
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('div nav ul li a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+};  
 
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    if (pageYOffset >= sectionTop - 60) {
-      current = section.getAttribute("id"); }
-  });
-  
-  navLi.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
-    }
-  });
-};
