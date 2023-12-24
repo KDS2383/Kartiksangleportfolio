@@ -14,7 +14,7 @@
 
 /* ------------------------------------- Timeline ----------------------------------------- */
 #timeline-cont {
-    background-color: #ffffff;
+    background-color: #5918df;
     list-style: none;
     margin-left: 21%;
     height: 48vmax;
@@ -26,13 +26,13 @@
 
 @media only screen and (max-width: 550px) {
     #timeline-cont {
-        height: 5vmax;
+        height: 25vmax;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #timeline-cont {
-        height: 73vmax;
+        height: 53vmax;
     }
 }
 
