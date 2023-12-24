@@ -1,21 +1,40 @@
 /* ------------------------------------- Timeline ----------------------------------------- */
-.cerficates-section
-{
-    height: 2600px;
+.cerficates-section {
+    margin-top: -2px;
+    height: 175vmax;
     width: 100%;
     background-color: #0b0a10;
-    /* background: linear-gradient(#0b0a10, #0b0a10);   */
 }
+
+@media only screen and (max-width: 650px) {
+    .cerficates-section {
+        height: 180vmax;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .cerficates-section {
+        height: 290vmax;
+    }
+}
+
+
 /* ------------------------------------- Background -------------#1a1527---------------------------- */
 
 #timeline-cert {
     background-color: #5918df;
     list-style: none;
-    margin-left: 300px;
-    height: 400%;
+    margin-left: 21%;
+    height: 180vmax;
     position: absolute;
-    top: 4300px;
-    width: 1px;
+    margin-top: 7%;
+    width: 2px;
+    z-index: 1;
+}
+@media only screen and (max-width: 450px) {
+    #timeline-cert {
+        height: 290vmax;
+    }
 }
 
 /*----------------------------------- bullet points -----------------------------------*/
@@ -44,4 +63,3 @@
     top: 25px;
     width: 9px;
 }
-
