@@ -1,7 +1,7 @@
 /* --------------------------------PROJECT IMG BD1----------------------------------- */
 
 .card-cerimg1{
-    background: url("../images/ml2023.jpg") no-repeat;
+    background: url("/images/ml2023.jpg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -24,7 +24,7 @@
 /* --------------------------------PROJECT IMG BD2----------------------------------- */
 
 .card-cerimg2{
-    background: url("../images/digi-mark.jpeg") no-repeat;
+    background: url("/images/digi-mark.jpeg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -47,7 +47,7 @@
 /* --------------------------------PROJECT IMG BD3----------------------------------- */
 
 .card-cerimg3{
-    background: url("../images/full-stack-clg.jpeg") no-repeat;
+    background: url("/images/full-stack-clg.jpeg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -70,7 +70,7 @@
 /* --------------------------------PROJECT IMG BD4----------------------------------- */
 
 .card-cerimg4{
-    background: url("../images/oop-clg.jpeg") no-repeat;
+    background: url("/images/oop-clg.jpeg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -92,7 +92,7 @@
 /* --------------------------------PROJECT IMG BD5----------------------------------- */
 
 .card-cerimg5{
-    background: url("../images/internship-cc.jpeg") no-repeat;
+    background: url("/images/internship-cc.jpeg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -115,7 +115,7 @@
 /* --------------------------------PROJECT IMG BD6----------------------------------- */
 
 .card-cerimg6{
-    background: url("../images/lor_cc.jpeg") no-repeat;
+    background: url("/images/lor_cc.jpeg") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
@@ -138,7 +138,7 @@
 /* --------------------------------PROJECT IMG BD7----------------------------------- */
 
 .card-cerimg7{
-    background: url("../images/cyber-sec.png") no-repeat;
+    background: url("/images/cyber-sec.png") no-repeat;
     background-size: contain;
     color: #fff;
     box-shadow: #988e9f 1px 1px 20px;
