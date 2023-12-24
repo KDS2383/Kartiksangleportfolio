@@ -1,6 +1,7 @@
 /* ------------------------------------- Background ----------------------------------------- */
 
 .skills-section{
+    position: relative;
     margin-top: -1px;
     height: 850px;
     width: 100%;
