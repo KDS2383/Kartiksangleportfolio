@@ -388,7 +388,7 @@
 
 @media only screen and (max-width: 700px) {
     #resumedown {
-        top: 10vw;
+        top: 20vw;
         left: 30vmin;
     }
 }
