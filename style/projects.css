@@ -11,13 +11,13 @@
 
 @media only screen and (max-width: 1130px) {
     .back-class {
-        height: 2650px;
+        height: 193vmax;
     }
 }
 
 @media only screen and (max-width: 650px) {
     .back-class {
-        height: 2650px;
+        height: 210vmax;
     }
 }
 
