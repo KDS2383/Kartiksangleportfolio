@@ -56,13 +56,13 @@
 
 @media only screen and (max-width: 700px) {
     #timeline-abt {
-        height: 150vmin;
+        height: 100vmin;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #timeline-abt {
-        height: 200vmax;
+        height: 150vmax;
     }
 }
 /*----------------------------------- bullet points -----------------------------------*/
