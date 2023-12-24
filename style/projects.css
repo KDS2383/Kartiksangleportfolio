@@ -1,22 +1,42 @@
 /* ------------------------------------- Background ----------------------------------------- */
 
 .back-class {
-    height: 2700px;
+    margin-top: 600px;
+    height: 185vmax;
     width: 100%;
     background-color: #1a1527;
     background: linear-gradient(#1a1527, #0b0a10);
+    z-index: -3;
 }
 
+@media only screen and (max-width: 1130px) {
+    .back-class {
+        height: 193vmax;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .back-class {
+        height: 210vmax;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .back-class {
+        height: 1650px;
+    }
+}
 
 /* ------------------------------------- Timeline ----------------------------------------- */
 #timeline-prj {
     background-color: #5918df;
     list-style: none;
-    margin-left: 300px;
-    height: 550%;
+    margin-left: 21%;
+    height: 500%;
     position: absolute;
     top: 750px;
-    width: 1px;
+    width: 2px;
+    z-index: 1;
 }
 
 /*----------------------------------- bullet points -----------------------------------*/
@@ -50,10 +70,10 @@
 
 #sel-prj {
     font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 2vmax;
     font-weight: bold;
     position: absolute;
-    top: 780px;
+    top: 730px;
     left: 24%;
     z-index: 2;
 }
@@ -68,12 +88,12 @@
     color: #221d35;
     content: "AIML";
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 230px;
+    font-size: 15vmax;
     font-weight: bold;
     position: absolute;
     right: 00px;
     top: 10px;
-    z-index: 1;
+    z-index:0;
 }
 
 
@@ -87,27 +107,21 @@
     color: #221d35;
     content: "WEB";
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 230px;
+    font-size: 15vmax;
     font-weight: bold;
     position: absolute;
     background-color: #120f1b;  /*#0e0b14 */
-    height: 250px;
+    /* height: 250px; */
     left: 10px;
-    top: -250px
+    margin-top: -17vmax;
+    z-index: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 500px) {
+    #web:before {
+        margin-top: 50vmax;
+    }
+}
 
 
 
