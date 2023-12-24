@@ -2,10 +2,11 @@
 
 #cerimg1{
     position: relative;
-    height: 335px;
-    width: 450px;
-    top: 200px;
-    left: 160px;
+    width: 31.1vmax;
+    height: 23.1vmax;
+    top: 8%;
+    left: 10%;
+    z-index: 3;
 }
 
 #chi1{
@@ -16,20 +17,43 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 350px;
-    left: 30px;
+    margin-top: 80%;
+    left: 11%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    #cerimg1{
+        top: 7%;
+    }
+}   
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg1{
+        top: 4%;
+        left: 16%;
+    }
+
+    #chi1{
+        font-size: 13px;
+        left: 6%;
+    }
+
 }
 
 /* ----------------------------------------IMAGE-2----------------------------------- */
 
 #cerimg2{
     position: relative;
-    height: 335px;
-    width: 475px;
-    top: -135px;
-    left: 810px;
+    width: 32.6vmax;
+    height: 23.1vmax;
+    margin-top: -9%;
+    left: 56%;
+    z-index: 3;
 }
 
 #chi2{
@@ -40,21 +64,49 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 350px;
-    left: 60px;
+    margin-top: 76%;
+    margin-left: 15%;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    #cerimg2{
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #cerimg2{
+        margin-top: -6%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg2{
+        top: 9.5%;
+        left: 15%;
+    }
+
+    #chi2{
+        font-size: 13px;
+        margin-left: 6%;
+    }
+
+}
 
 /* ----------------------------------------IMAGE-3----------------------------------- */
 
 #cerimg3{
     position: relative;
-    height: 335px;
-    width: 465px;
-    top: 70px;
-    left: 170px;
+    width: 31.1vmax;
+    height: 22.5vmax;
+    top: 8%;
+    left: 10%;
+    z-index: 3;
 }
 
 #chi3{
@@ -65,21 +117,50 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 350px;
-    left: 00px;
+    margin-top: 80%;
+    left: 1%;
 }
 
+
+@media only screen and (max-width: 1000px) {
+
+    #cerimg3{
+        top: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #cerimg3{
+        top: 4%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg3{
+        top: 14%;
+        left: 16%;
+    }
+
+    #chi3{
+        font-size: 13px;
+        left: 6%;
+    }
+
+}
 
 /* ----------------------------------------IMAGE-4----------------------------------- */
 
 #cerimg4{
     position: relative;
-    height: 335px;
-    width: 458px;
-    top: -265px;
-    left: 820px;
+    width: 30.6vmax;
+    height: 22.5vmax;
+    margin-top: -8%;
+    left: 58%;
+    z-index: 3;
 }
 
 #chi4{
@@ -90,21 +171,49 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 350px;
-    left:100px;
+    margin-top: 80%;
+    margin-left: 23%;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    #cerimg4{
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #cerimg4{
+        margin-top: -6%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg4{
+        top: 20%;
+        left: 15%;
+    }
+
+    #chi4{
+        font-size: 13px;
+        margin-left: 6%;
+    }
+
+}
 
 /* ----------------------------------------IMAGE-5----------------------------------- */
 
 #cerimg5{
     position: relative;
-    height: 520px;
-    width: 368px;
-    top: -40px;
-    left: 220px;
+    width: 25.4vmax;
+    height: 35.9vmax;
+    top: 8%;
+    left: 13%;
+    z-index: 3;    
 }
 
 #chi5{
@@ -115,21 +224,49 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 535px;
-    left:55px;
+    margin-top: 148%;
+    left: 16%;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    #cerimg5{
+        top: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #cerimg5{
+        top: 4%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg5{
+        top: 24%;
+        left: 21%;
+    }
+
+    #chi5{
+        font-size: 13px;
+        left: 6%;
+    }
+
+}
 
 /* ----------------------------------------IMAGE-6----------------------------------- */
 
 #cerimg6{
     position: relative;
-    height: 520px;
-    width: 368px;
-    top: -560px;
-    left: 870px;
+    width: 25.4vmax;
+    height: 35.9vmax;
+    top: -12%;
+    left: 62%;
+    z-index: 3;    
 }
 
 #chi6{
@@ -140,10 +277,38 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 535px;
-    left:50px;
+    margin-top: 148%;
+    left: 16%;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #cerimg6{
+        top: -13%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    #cerimg6{
+        top: -10%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg6{
+        top: 28%;
+        left: 21%;
+    }
+
+    #chi6{
+        font-size: 13px;
+        left: 6%;
+    }
+
 }
 
 
@@ -151,10 +316,11 @@
 
 #cerimg7{
     position: relative;
-    height: 335px;
-    width: 502px;
-    top: -350px;
-    left: 480px;
+    width: 34.6vmax;
+    height: 23.1vmax;
+    top: -6%;
+    left: 33%;
+    z-index: 3;    
 }
 
 #chi7{
@@ -165,8 +331,29 @@
     background-color: #0b0a10;
     text-shadow: 20px 10px 20px #0b0a10, 0 0 0.10em #0b0a10, 0 0 0.1em #0b0a10;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight:500;
-    top: 350px;
-    left:120px;
+    margin-top: 73%;
+    left: 26%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #cerimg7{
+        top: -5%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #cerimg7{
+        top: 32%;
+        left: 16%;
+    }
+
+    #chi7{
+        font-size: 13px;
+        left: 23%;
+    }
+
 }
